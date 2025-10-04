@@ -40,7 +40,7 @@ let txt = '   Hello,world! 56'
 // console.log(txt.repeat(5));
 // console.log(txt.replace("Hello", "Bonjor"));
 // console.log(txt.slice(10));
-// console.log(txt.split(",")); //
+// console.log(txt.split(","));
 // console.log(txt.toLowerCase());
 // console.log(txt.trim()); // trimStart, trimEnd
 
