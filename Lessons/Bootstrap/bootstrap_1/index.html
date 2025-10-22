@@ -1,0 +1,251 @@
+<!-- Bootstrap -->
+<!-- Flowbite -->
+<!-- Tailwindcss -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body class="p-4">
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Цвет текста <br />
+				text-gray-700, text-blue-600, text-white, text-[#ef3054] <br />
+				50, 100, 200, 300, 400, 500, 600, 700, 800, 900
+			</p>
+
+			<p class="text-blue-900">Hello world!</p>
+			<p class="text-green-500">Hello world!</p>
+			<p class="text-red-500">Hello world!</p>
+			<p class="text-[#d81e5b]">Hello world!</p>
+			<p class="text-white bg-green-500">Hello world!</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Цвет фона <br />
+				bg-white, bg-gray-100, bg-blue-500, bg-green-600, bg-[#ef3054] <br />
+				50, 100, 200, 300, 400, 500, 600, 700, 800, 900
+			</p>
+
+			<div class="w-[30px] h-[30px] bg-green-500"></div>
+			<div class="w-[30px] h-[30px] bg-red-500"></div>
+			<div class="w-[30px] h-[30px] bg-purple-900"></div>
+			<div class="w-[30px] h-[30px] bg-[#d81e5b]"></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Цвет границы <br />
+				border-2 border-dotted border-gray-300, border-blue-500,
+				border-[#ef3054] <br />
+				50, 100, 200, 300, 400, 500, 600, 700, 800, 900
+			</p>
+
+			<div class="w-[30px] h-[30px] border-2 border-dashed"></div>
+			<div class="w-[30px] h-[30px] border-2 border-dotted"></div>
+			<div
+				class="w-[30px] h-[30px] border-2 border-double border-[#d81e5b]"
+			></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Прозрачность <br />
+				opacity-0, opacity-40, opacity-100 <br />
+				0-100
+			</p>
+
+			<div class="w-[30px] h-[30px] bg-green-500 mb-2 opacity-40"></div>
+			<div class="w-[30px] h-[30px] bg-green-500"></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Размеры <br />
+				xs, sm, md, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl <br />
+			</p>
+
+			<p class="text-xs">Hello world!</p>
+			<p class="text-sm">Hello world!</p>
+			<p class="text-md">Hello world!</p>
+			<p class="text-lg">Hello world!</p>
+			<p class="text-4xl">Hello world!</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Жирность <br />
+				font-normal, font-medium, font-semibold, font-bold <br />
+			</p>
+
+			<p class="font-bold">Hellow world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Выравнивание <br />
+				text-center, text-left, text-right <br />
+			</p>
+
+			<p class="font-bold text-center">Hellow world</p>
+			<p class="font-bold">Hellow world</p>
+			<p class="font-bold text-right">Hellow world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Отступы в словах <br />
+				leading-tight, leading-normal, leading-relaxed <br />
+			</p>
+
+			<p class="leading-relaxed">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
+				mollitia tenetur iure nisi quam et officiis ex ea saepe atque fugit
+				incidunt quos qui nostrum minima voluptates eaque harum iusto.
+			</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Паддинг <br />
+				p-2, pt-2, pb-2, pl-2, pr-2, px-0, py-0 <br />
+			</p>
+
+			<p class="bg-green-500 p-2">Hello world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Маргины <br />
+				m-2, mt-2, mb-2, ml-2, mr-2, my-0, mx-0 <br />
+			</p>
+
+			<p class="bg-green-500 p-2 mt-2 mb-2 mr-2 ml-2">Hello world</p>
+			<p class="bg-green-500 p-2">Hello world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Ширина <br />
+				w-full, w-1/2, w-1/3, w-1/4, w-1/....12, w-2/3, w-7/12 <br />
+			</p>
+
+			<p class="bg-green-500 w-1/2">Hello world</p>
+			<p class="bg-red-500 w-3/7">Hello world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Высота <br />
+				h-full, h-[300px], h-1/2, h-1/3, h-1/4, h-1/....12, h-2/3, h-7/12 <br />
+			</p>
+
+			<p class="bg-green-500 h-[50px]">Hello world</p>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Радиус <br />
+				rounded, rounded-full, rounded-xs, rounded-sm <br />
+			</p>
+
+			<div class="w-[30px] h-[30px] bg-green-500 mb-1 rounded"></div>
+			<div class="w-[30px] h-[30px] mb-1 bg-red-500 rounded-full"></div>
+			<div class="w-[30px] h-[30px] mb-1 bg-purple-900 rounded-xl"></div>
+			<div class="w-[30px] h-[30px] mb-1 bg-[#d81e5b] rounded-2xl"></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Тени <br />
+				shadow, shadow-xs, shadow-sm <br />
+			</p>
+
+			<div class="w-[30px] h-[30px] bg-green-500 mb-1 shadow-xl"></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Наведение <br />
+				hover <br />
+			</p>
+
+			<div
+				class="w-[30px] h-[30px] bg-green-500 hover:bg-red-500 hover:rounded-full hover:w-[50px] hover:h-[50px] mb-1 shadow-xl transition duration-900 ease-in-out"
+			></div>
+		</div>
+
+		<div class="border-2 border-dashed p-4 mb-4">
+			<p class="text-xs font-bold">
+				Курсор <br />
+				cursor-pointer, cursor-default.... <br />
+			</p>
+
+			<div
+				class="w-[30px] cursor-pointer h-[30px] bg-green-500 mb-1 shadow-xl"
+			></div>
+			<div class="w-[30px] h-[30px] bg-green-500 mb-1 shadow-xl"></div>
+		</div>
+	</body>
+</html>
+
+<!-- green, gray, blue, red, orange, purple, indigo, yellow, pink -->
+
+<!-- Цвет текста -->
+<!-- text-gray-700, text-blue-600, text-white, text-[#ef3054] -->
+
+<!-- Цвет фона -->
+<!-- bg-white, bg-gray-100, bg-blue-500, bg-green-600, bg-[#ef3054] -->
+
+<!-- Цвет границы -->
+<!-- border-2 border-dotted border-gray-300, border-blue-500, border-[#ef3054] -->
+
+<!-- Прозрачность -->
+<!-- opacity-0, opacity-40, opacity-100 -->
+
+<!-- Размеры -->
+<!-- xs, sm, md, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl -->
+
+<!-- Жирность -->
+<!-- font-normal, font-medium, font-semibold, font-bold  -->
+
+<!-- Выравнивание -->
+<!-- text-center, text-left, text-right -->
+
+<!-- Отступы в словах -->
+<!-- leading-tight, leading-normal, leading-relaxed -->
+
+<!-- Паддинг -->
+<!-- p-2, pt-2, pb-2, pl-2, pr-2, mx-0 -->
+
+<!-- Маргины -->
+<!-- m-2, mt-2, mb-2, ml-2, mr-2, my-0 -->
+
+<!-- Ширина -->
+<!-- w-full, w-1/2, w-1/3, w-1/4, w-1/....12, w-2/3, w-7/12 -->
+
+<!-- Высота -->
+<!-- h-full, h-[300px], h-1/2, h-1/3, h-1/4, h-1/....12, h-2/3, h-7/12 -->
+
+<!-- Радиус -->
+<!-- rounded, rounded-full, rounded-xs, rounded-sm..... -->
+
+<!-- Тени -->
+<!-- shadow, shadow-xs, shadow-sm..... -->
+
+<!-- Наведение -->
+<!-- hover: -->
+
+<!-- Курсор -->
+<!-- cursor-pointer, cursor-default.... -->
+
+<!-- Транзишн -->
+<!-- transition, duration-100, ease-in-out -->
